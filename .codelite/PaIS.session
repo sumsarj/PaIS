@@ -6,7 +6,7 @@
     <TabInfo>
       <wxString Value="F:\Dokument\GitHub\PaIS\Lab4\qtest.c" Name="FileName"/>
       <int Value="105" Name="FirstVisibleLine"/>
-      <int Value="118" Name="CurrentLine"/>
+      <int Value="113" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

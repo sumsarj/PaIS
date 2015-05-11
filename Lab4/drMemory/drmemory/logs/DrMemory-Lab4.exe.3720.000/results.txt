@@ -1,0 +1,24 @@
+Dr. Memory version 1.6.1 build 2 built on Dec 14 2013 12:27:10
+Dr. Memory results for pid 3720: "Lab4.exe"
+Application cmdline: "F:\Dokument\GitHub\PaIS\Lab4\Debug\Lab4.exe"
+Recorded 99 suppression(s) from default F:\Dokument\GitHub\PaIS\Lab4\drMemory\bin\suppress-default.txt
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+NO ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+ERRORS IGNORED:
+      0 unique,     0 total,      0 byte(s) of still-reachable allocation(s)
+         (re-run with "-show_reachable" for details)
+Details: F:\Dokument\GitHub\PaIS\Lab4\drMemory\drmemory\logs\DrMemory-Lab4.exe.3720.000\results.txt

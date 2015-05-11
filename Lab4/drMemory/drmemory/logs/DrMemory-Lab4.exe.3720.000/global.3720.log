@@ -1,0 +1,57 @@
+Dr. Memory version 1.6.1 build 2 built on Dec 14 2013 12:27:10
+start time: 3632182:19:08.954 == 22:19:08.954 05/11/2015
+Recorded 99 suppression(s) from default F:\Dokument\GitHub\PaIS\Lab4\drMemory\bin\suppress-default.txt
+new thread #0 id=2420
+
+module load event: "Lab4.exe" 0x00400000-0x00411000 modid: 1 F:\Dokument\GitHub\PaIS\Lab4\Debug\Lab4.exe
+
+module load event: "dynamorio.dll" 0x71000000-0x71143000 modid: 2 F:\Dokument\GitHub\PaIS\Lab4\drMemory\dynamorio\lib32\release\dynamorio.dll
+
+module load event: "drmemorylib.dll" 0x73800000-0x73995000 modid: 3 F:\Dokument\GitHub\PaIS\Lab4\drMemory\bin\release\drmemorylib.dll
+
+module load event: "KERNEL32.dll" 0x750e0000-0x751f0000 modid: 4 C:\Windows\syswow64\kernel32.dll
+WARNING: unable to load symbols for C:\Windows\syswow64\kernel32.dll
+
+module load event: "KERNELBASE.dll" 0x75630000-0x75677000 modid: 5 C:\Windows\syswow64\KERNELBASE.dll
+WARNING: unable to load symbols for C:\Windows\syswow64\KERNELBASE.dll
+
+module load event: "msvcrt.dll" 0x76a10000-0x76abc000 modid: 6 C:\Windows\syswow64\msvcrt.dll
+WARNING: new == new[] => disabling mismatch detection for msvcrt.dll
+
+module load event: "ntdll.dll" 0x77190000-0x77310000 modid: 7 C:\Windows\SysWOW64\ntdll.dll
+WARNING: unable to load symbols for C:\Windows\SysWOW64\ntdll.dll
+WARNING: unhandled system calls found
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+	     1x (leaked     188 bytes): default i#781: argv[] possible leak in mingw CRT
+	     2x (leaked    4104 bytes): default i#599 MSCRT un-freed alloc C
+
+NO ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+ERRORS IGNORED:
+     68 ignored assumed-innocuous system leak(s)
+      0 unique,     0 total,      0 byte(s) of still-reachable allocation(s)
+         (re-run with "-show_reachable" for details)
+Details: F:\Dokument\GitHub\PaIS\Lab4\drMemory\drmemory\logs\DrMemory-Lab4.exe.3720.000\results.txt
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+NO POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+Details: F:\Dokument\GitHub\PaIS\Lab4\drMemory\drmemory\logs\DrMemory-Lab4.exe.3720.000\potential_errors.txt
+Exiting @0:00:01.701 in thread 2420
+LOG END
